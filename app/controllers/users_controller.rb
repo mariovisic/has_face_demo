@@ -6,7 +6,7 @@ class UsersController < ApplicationController
 
   def create
     @user = User.create(params[:user])
-    respond_with @user
+    respond_with @user, :location => :users
   end
 
   def index
