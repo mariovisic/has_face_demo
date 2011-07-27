@@ -1,0 +1,8 @@
+%h1 New User
+
+= semantic_form_for @user, :html => { :multipart => true } do |f|
+  = f.inputs do
+    = f.input :portrait, :as => :file
+
+  = f.buttons do
+    = f.commit_button

@@ -34,6 +34,11 @@ GEM
       activesupport (~> 3.0)
     erubis (2.6.6)
       abstract (>= 1.0.0)
+    formtastic (1.2.4)
+      actionpack (>= 2.3.7)
+      activesupport (>= 2.3.7)
+      i18n (~> 0.4)
+    haml (3.1.2)
     has_face (0.0.3)
       rails (>= 3.0)
       rest-client
@@ -80,6 +85,8 @@ PLATFORMS
 
 DEPENDENCIES
   carrierwave
+  formtastic
+  haml
   has_face
   rails (= 3.0.9)
   sqlite3
